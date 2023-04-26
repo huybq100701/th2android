@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="5dp"
+    android:background="#CDCDCD">
+    <LinearLayout
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvName"
+                android:text="Ten sach"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:text="Tac gia"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tvPhamvi"
+                android:text="pham vi"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tvDate"
+                android:text="Date"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDoituong"
+            android:text="Doi tuong"
+            android:layout_weight="1"
+            android:textColor="@color/teal_700"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_gravity="center"
+            android:text="Danh gia yeu thich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

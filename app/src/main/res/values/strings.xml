@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Th2Android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="tacgia">
+        <item>Nguyen Manh Son</item>
+        <item>Tran Dinh Que</item>
+        <item>Nguyen Tri Phuong</item>
+        <item>Pham The Que</item>
+
+    </string-array>
+
+</resources>
